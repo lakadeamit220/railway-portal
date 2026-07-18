@@ -9,12 +9,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="w-full relative min-h-screen">
-      {/* Global Fixed Background Image */}
-      <div className="fixed inset-0 z-[-2] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url("/hero-bg.png")' }}></div>
-      {/* Global Overlay to ensure text readability */}
-      <div className="fixed inset-0 z-[-1] bg-black/40"></div>
-
+    <main className="w-full">
       <Navbar />
       <HeroBanner />
       <AboutSection />

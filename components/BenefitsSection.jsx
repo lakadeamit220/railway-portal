@@ -45,7 +45,7 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section id="benefits" className="py-20 bg-white/85 backdrop-blur-md">
+    <section id="benefits" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
@@ -61,7 +61,7 @@ export default function BenefitsSection() {
         {/* Benefits List */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
           {benefits.map((benefit, index) => (
-            <div key={index} className="flex items-start space-x-4 p-4 rounded-xl hover:bg-white/60 transition-colors">
+            <div key={index} className="flex items-start space-x-4 p-4 rounded-xl hover:bg-rail-light transition-colors">
               <div className="flex-shrink-0 mt-1">
                 <div className="bg-rail-saffron w-10 h-10 rounded-full flex items-center justify-center shadow-sm">
                   {benefit.icon}
@@ -71,7 +71,7 @@ export default function BenefitsSection() {
                 <h3 className="font-poppins text-lg font-bold text-rail-navy mb-1">
                   {benefit.title}
                 </h3>
-                <p className="text-gray-800 font-medium">
+                <p className="text-gray-600">
                   {benefit.description}
                 </p>
               </div>
