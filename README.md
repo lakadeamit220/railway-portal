@@ -54,17 +54,10 @@ A modern, clean, and fully responsive landing page for the Indian Railway Depart
    npm install
    ```
 
-3. **Configure Environment Variables**:
-   Create a `.env.local` file in the root directory and add the following:
-   ```env
-   # MongoDB Connection String (Local)
-   MONGODB_URI=mongodb://localhost:27017/railwayportal
-
-   # Google reCAPTCHA v3 Keys
-   # (These are Google's official public test keys - replace them in production)
-   NEXT_PUBLIC_RECAPTCHA_SITE_KEY=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-   RECAPTCHA_SECRET_KEY=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ9eQVNfc
-   ```
+3. **Environment Variables**:
+   For the purpose of this technical assessment, the `.env` file containing the MongoDB connection string and Google reCAPTCHA test keys has been **deliberately included in this repository**. You do not need to create one manually.
+   
+   *(Note: The database connects to `mongodb://localhost:27017/railwayportal`. Please ensure your local MongoDB instance is running.)*
 
 4. **Run the Development Server**:
    ```bash
