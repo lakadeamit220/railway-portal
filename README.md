@@ -9,8 +9,7 @@ A modern, clean, and fully responsive landing page for the Indian Railway Depart
 
 ---
 
-## 🎯 Features
-
+## Features
 - **Modern UI/UX**: Designed using Indian Railway brand colors (Navy and Saffron) with a clean, professional aesthetic.
 - **Fully Responsive**: Optimized for Mobile, Tablet, and Desktop displays.
 - **Dynamic Navigation**: Sticky header with smooth scrolling and a slide-in mobile drawer.
@@ -22,7 +21,7 @@ A modern, clean, and fully responsive landing page for the Indian Railway Depart
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -35,7 +34,7 @@ A modern, clean, and fully responsive landing page for the Indian Railway Depart
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### Prerequisites
 1. **Node.js** (v18 or higher)
@@ -75,7 +74,7 @@ A modern, clean, and fully responsive landing page for the Indian Railway Depart
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
 ### `POST /api/enquiries`
 
@@ -113,7 +112,7 @@ Handles form submissions, verifies the reCAPTCHA token, validates data, and stor
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 railway-portal/
@@ -142,7 +141,7 @@ railway-portal/
 
 ---
 
-## 🌐 Deployment (Vercel)
+## Deployment (Vercel)
 
 When you are ready to deploy:
 1. Push your code to GitHub.
