@@ -39,7 +39,7 @@ export default function AboutSection() {
             </div>
             
             <p className="text-lg text-gray-700 leading-relaxed mt-6 mb-6">
-              The Indian Railway Department Portal is your comprehensive digital gateway to the world's fourth-largest national railway network. We are committed to providing seamless, transparent, and efficient services to millions of passengers and freight customers every single day.
+              The Indian Railway Department Portal is your comprehensive digital gateway to the world&apos;s fourth-largest national railway network. We are committed to providing seamless, transparent, and efficient services to millions of passengers and freight customers every single day.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               From instant ticket bookings and real-time train tracking to dedicated grievance redressal and freight management, this portal brings the entire railway ecosystem to your fingertips, ensuring a safe and comfortable journey for everyone.

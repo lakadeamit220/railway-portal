@@ -14,7 +14,7 @@ export default function CTASection() {
         </div>
         
         <h2 className="font-poppins text-3xl md:text-5xl font-bold mb-6 drop-shadow-md">
-          Have a Query? We're Here to Help
+          Have a Query? We&apos;re Here to Help
         </h2>
         
         <p className="text-lg md:text-xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
