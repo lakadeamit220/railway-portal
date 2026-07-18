@@ -87,12 +87,12 @@ export default function EnquiryForm() {
   };
 
   return (
-    <section id="enquiry" className="py-20 bg-rail-light">
+    <section id="enquiry" className="py-20 bg-white/70 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Error Banner */}
         {submitStatus.type === 'error' && (
-          <div className="max-w-2xl mx-auto mb-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-md shadow-sm flex items-start justify-between">
+          <div className="max-w-2xl mx-auto mb-6 bg-red-50/90 backdrop-blur-sm border-l-4 border-red-500 p-4 rounded-md shadow-sm flex items-start justify-between">
             <div className="flex items-center">
               <AlertTriangle className="text-red-500 mr-3" size={24} />
               <p className="text-red-700 font-medium">{submitStatus.message}</p>
@@ -107,10 +107,10 @@ export default function EnquiryForm() {
         )}
 
         {/* Main Card */}
-        <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+        <div className="max-w-2xl mx-auto bg-white/95 backdrop-blur-xl rounded-2xl shadow-xl overflow-hidden border border-white/50">
           
           {/* Header */}
-          <div className="bg-rail-navy p-6 md:p-8 text-white flex items-center justify-center space-x-3">
+          <div className="bg-rail-navy/95 p-6 md:p-8 text-white flex items-center justify-center space-x-3">
             <Mail size={32} className="text-rail-saffron" />
             <h2 className="font-poppins text-2xl md:text-3xl font-bold">Submit Your Enquiry</h2>
           </div>

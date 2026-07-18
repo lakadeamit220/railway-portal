@@ -2,7 +2,7 @@ import { Headphones, ArrowRight } from 'lucide-react';
 
 export default function CTASection() {
   return (
-    <section className="py-20 bg-gradient-to-br from-rail-navy via-rail-navyLight to-rail-saffron text-white relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-rail-navy/85 via-rail-navyLight/85 to-rail-saffron/85 backdrop-blur-md text-white relative overflow-hidden">
       
       {/* Decorative background circles */}
       <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>

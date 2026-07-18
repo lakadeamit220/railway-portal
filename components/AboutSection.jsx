@@ -25,7 +25,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white/85 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
@@ -49,8 +49,8 @@ export default function AboutSection() {
           {/* Right Column: Stats Grid */}
           <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
             {stats.map((stat, index) => (
-              <div key={index} className="bg-rail-light p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center group">
-                <div className="bg-white p-4 rounded-full shadow-sm mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div key={index} className="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-white/50 flex flex-col items-center text-center group">
+                <div className="bg-white/90 p-4 rounded-full shadow-sm mb-4 group-hover:scale-110 transition-transform duration-300">
                   {stat.icon}
                 </div>
                 <h3 className="font-poppins text-3xl font-bold text-rail-saffron mb-2">

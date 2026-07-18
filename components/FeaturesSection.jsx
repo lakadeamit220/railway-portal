@@ -35,7 +35,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-rail-light">
+    <section id="services" className="py-20 bg-white/70 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
@@ -46,7 +46,7 @@ export default function FeaturesSection() {
             </h2>
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1.5 bg-rail-saffron rounded-full"></div>
           </div>
-          <p className="text-lg text-gray-600 mt-6">
+          <p className="text-lg text-gray-800 font-medium mt-6">
             Explore a wide range of digital services designed to make your railway experience smooth, fast, and completely hassle-free.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function FeaturesSection() {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-xl shadow-md p-8 hover:-translate-y-2 hover:shadow-xl hover:border-l-4 hover:border-l-rail-saffron transition-all duration-300 border border-transparent flex flex-col"
+              className="bg-white/85 backdrop-blur-sm rounded-xl shadow-md p-8 hover:-translate-y-2 hover:shadow-xl hover:border-l-4 hover:border-l-rail-saffron transition-all duration-300 border border-white/50 flex flex-col"
             >
               <div className="bg-rail-saffron w-14 h-14 rounded-lg flex items-center justify-center mb-6 shadow-sm">
                 {feature.icon}

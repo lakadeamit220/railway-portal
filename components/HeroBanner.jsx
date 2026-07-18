@@ -3,14 +3,6 @@ import { ArrowRight, MessageSquare, ChevronDown } from 'lucide-react';
 export default function HeroBanner() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("/hero-bg.png")' }}
-      >
-        <div className="absolute inset-0 bg-black/60 bg-gradient-to-t from-rail-dark/80 to-transparent"></div>
-      </div>
-
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white w-full animate-fade-in-up">
         <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6 text-sm font-medium">
