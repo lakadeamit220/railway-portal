@@ -76,17 +76,17 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin size={20} className="text-rail-saffron mr-3 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Rail Bhawan, Rafi Marg, <br />
-                  New Delhi - 110001, India
+                  Pune,<br />
+                  Maharashtra, India
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-rail-saffron mr-3 flex-shrink-0" />
-                <span className="text-gray-400">139 (24/7 Helpline)</span>
+                <span className="text-gray-400">+91 9168830229</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-rail-saffron mr-3 flex-shrink-0" />
-                <span className="text-gray-400">support@railwayportal.gov.in</span>
+                <span className="text-gray-400">lakadeamit220@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p className="mb-4 md:mb-0">
-            &copy; {currentYear} Ministry of Railways, Government of India. All rights reserved.
+            &copy; {currentYear} Developed by Amit Lakade. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

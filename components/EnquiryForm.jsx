@@ -147,7 +147,7 @@ export default function EnquiryForm() {
                     type="text"
                     {...register('fullName')}
                     className={`w-full px-4 py-3 rounded-lg border ${errors.fullName ? 'border-red-500 bg-red-50' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-rail-saffron focus:border-transparent transition-shadow`}
-                    placeholder="e.g. Rahul Sharma"
+                    placeholder="e.g. Amit Lakade"
                   />
                   {errors.fullName && (
                     <p className="mt-1.5 text-sm text-red-500 flex items-center">
@@ -173,7 +173,7 @@ export default function EnquiryForm() {
                         type="tel"
                         {...register('mobileNumber')}
                         className={`w-full pl-12 pr-4 py-3 rounded-lg border ${errors.mobileNumber ? 'border-red-500 bg-red-50' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-rail-saffron focus:border-transparent transition-shadow`}
-                        placeholder="9876543210"
+                        placeholder="9168830229"
                       />
                     </div>
                     {errors.mobileNumber && (
@@ -194,7 +194,7 @@ export default function EnquiryForm() {
                       type="email"
                       {...register('email')}
                       className={`w-full px-4 py-3 rounded-lg border ${errors.email ? 'border-red-500 bg-red-50' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-rail-saffron focus:border-transparent transition-shadow`}
-                      placeholder="rahul@example.com"
+                      placeholder="lakadeamit220@gmail.com"
                     />
                     {errors.email && (
                       <p className="mt-1.5 text-sm text-red-500 flex items-center">

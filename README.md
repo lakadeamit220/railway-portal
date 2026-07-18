@@ -83,9 +83,9 @@ Handles form submissions, verifies the reCAPTCHA token, validates data, and stor
 **Request Body (JSON):**
 ```json
 {
-  "fullName": "Rahul Sharma",
-  "mobileNumber": "9876543210",
-  "email": "rahul@example.com",
+  "fullName": "Amit Lakade",
+  "mobileNumber": "9168830229",
+  "email": "lakadeamit220@gmail.com",
   "organization": "ABC Logistics", 
   "message": "I need help tracking my freight consignment.",
   "recaptchaToken": "token_string_from_google"
@@ -152,4 +152,4 @@ When you are ready to deploy:
 6. Deploy!
 
 ---
-*Developed as a Technical Assessment Project.*
+*Developed as a Technical Assessment Project by Amit Lakade (Pune, Maharashtra).*
